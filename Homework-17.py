@@ -96,10 +96,10 @@ toxtatish = "quit"
 while True:
     foydalanuvchining_kiritishi = input("Kartangizdagi yechmoqchi bolgan pulni kiriting yoki quit: ")
     
-    if foydalanuvchining_kiritishi == toxtatish:  # quit yozilgan bo‘lsa
+    if foydalanuvchining_kiritishi == toxtatish:  
         print("Sizning operatsiyangiz yakunlandi.")
         break
-    foydalanuvchining_balans = float(foydalanuvchining_kiritishi)  # faqat quit bo‘lmagan holatda float
+    foydalanuvchining_balans = float(foydalanuvchining_kiritishi)  
     if foydalanuvchining_balans % 10 != 0:
         print("Faqat 10 ga karrali summa kiriting!")
         continue
